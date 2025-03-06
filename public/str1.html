@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>start</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background: url("img/album_background.jpg") no-repeat center center
+          fixed;
+        background-size: cover;
+        padding: 20px;
+      }
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+      }
+      .gallery a {
+        display: block;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+      .gallery a:hover {
+        transform: scale(1.1);
+      }
+      .gallery img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <link rel="stylesheet" href="str1.css" />
+    <h1>Валдайская братва</h1>
+    <div class="rectangle">
+      <h2>Мишаня</h2>
+      <p>Самый жесткий чувак в валдае, 19 лет, 171 см ростом</p>
+    </div>
+    <div class="rectangle2">
+      <h2>Ванюша</h2>
+      <p>
+        Самый дерзкий тип в валдае и главный пиздолиз всего Новгорода, 16
+        годиков, пж разбейте ему ебало
+      </p>
+    </div>
+    <div class="rectangle3">
+      <h2>Даня Кооль</h2>
+      <p>
+        Король Валдая, тот кто может контролировать Ваню и Мишу когда все плохо,
+        самый лютый качек в своей категории и Валдае
+      </p>
+    </div>
+    <div class="rectangle4"></div>
+    <div class="rectangle5"></div>
+    <div class="rectangle6"></div>
+    <div class="gallery">
+      <a href="img/photo1.jpg" data-lightbox="album" class="photo1">
+        <img src="img/photo1.jpg" alt="Фото 1" />
+      </a>
+      <a href="img/photo2.jpg" data-lightbox="album" class="photo2">
+        <img src="img/photo2.jpg" alt="Фото 2" />
+      </a>
+      <a href="img/photo3.jpg" data-lightbox="album" class="photo3">
+        <img src="img/photo3.jpg" alt="Фото 3" />
+      </a>
+      <a href="img/photo4.jpg" data-lightbox="album" class="photo4">
+        <img src="img/photo4.jpg" alt="Фото 4" />
+      </a>
+      <a href="img/photo5.jpg" data-lightbox="album" class="photo5">
+        <img src="img/photo5.jpg" alt="Фото 5" />
+      </a>
+      <a href="img/photo6.jpg" data-lightbox="album" class="photo6">
+        <img src="img/photo6.jpg" alt="Фото 6" />
+      </a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+  </body>
+</html>
